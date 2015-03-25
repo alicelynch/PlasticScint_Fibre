@@ -32,8 +32,23 @@ The various classes needed for each section of the simulation are sound in [src]
 
 ###[PSDetectorConstruction.cc](https://github.com/alicelynch/PlasticScint_Fibre/blob/master/src/PSDetectorConstruction.cc)
 
+- Define materials, e.g. Scintillating Plastic, Aluminium, Air, Teflon.
+- Define Geometry of the various components
+- Refer to G4Material PropertiesTable for the physical properties of materials
+- Define the properties of surfaces using G4LogicalSurfaces and G4OpticalSurfaces
 
-![Happiest State](https://github.com/alicelynch/Twitter-Sentiment-Analysis/blob/master/HappiestStateMap_datawrapper.png)
+An sample detector geometry can be seen here:
+![Detector Geometry](https://github.com/alicelynch/PlasticScint_Fibre/blob/master/Images/PlasticScint_No_Tef_aperture_45_3.png)
+The pink component is the scintillator, and the turquoise is the light-sensitive PMT.
+
+###[PSPhysicsList.cc](https://github.com/alicelynch/PlasticScint_Fibre/blob/master/src/PSPhysicsList.cc)
+
+- Define Particles
+  - Including electrons, optical photons (G4OpticalPhoton), Ions, neutrons etc.
+- Define Processes
+  - Including scintillation (G4Scintillation), optical absorption (G4OpAbsorption), scattering (G4OpRayleigh) ad boundary processes (G4OpBoundaryProcess)
+
+
 
 Run `python frequency.py output.txt`
 
