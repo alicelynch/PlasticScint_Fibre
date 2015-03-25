@@ -49,7 +49,9 @@ The pink component is the scintillator, and the turquoise is the light-sensitive
   - Including scintillation (G4Scintillation), optical absorption (G4OpAbsorption), scattering (G4OpRayleigh) ad boundary processes (G4OpBoundaryProcess)
 
 
+  <!---
 
 Run `python frequency.py output.txt`
 
 <img src="https://github.com/alicelynch/Twitter-Sentiment-Analysis/blob/master/freq1.png" alt="Word Frequency" width="800" height="400">
+--->
