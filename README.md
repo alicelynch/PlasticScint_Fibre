@@ -15,11 +15,11 @@ Natural Language Processing is a challenging and complex field of computer scien
 
 Geant4 includes facilities for handling geometry, tracking, detector response, run management, visualization and user interface.
 Following is a summary of each of the facilities listed above:
--Geometry is an analysis of the physical layout of the experiment, including detectors, absorbers, etc., and considering how this layout will affect the path of particles in the experiment.[PSDetectorConstruction.cc](https://github.com/alicelynch/PlasticScint_Fibre/blob/master/src/PSDetectorConstruction.cc)
--Tracking is simulating the passage of a particle through matter. This involves considering possible interactions and decay processes.
--Detector response is recording when a particle passes through the volume of a detector, and approximating how a real detector would respond.
--Run management is recording the details of each run (a set of events), as well as setting up the experiment in different configurations between runs.
--Geant4 offers a number of options for visualization, including OpenGL, and a familiar user interface, based on Tcsh.
+- Geometry is an analysis of the physical layout of the experiment, including detectors, absorbers, etc., and considering how this layout will affect the path of particles in the experiment.[PSDetectorConstruction.cc](https://github.com/alicelynch/PlasticScint_Fibre/blob/master/src/PSDetectorConstruction.cc)
+- Tracking is simulating the passage of a particle through matter. This involves considering possible interactions and decay processes.
+- Detector response is recording when a particle passes through the volume of a detector, and approximating how a real detector would respond.
+- Run management is recording the details of each run (a set of events), as well as setting up the experiment in different configurations between runs.
+- Geant4 offers a number of options for visualization, including OpenGL, and a familiar user interface, based on Tcsh.
 
 
 ## Detector Simulation
