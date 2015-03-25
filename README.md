@@ -39,6 +39,7 @@ The various classes needed for each section of the simulation are sound in [src]
 
 An sample detector geometry can be seen here:
 ![Detector Geometry](https://github.com/alicelynch/PlasticScint_Fibre/blob/master/Images/PlasticScint_No_Tef_aperture_45_3.png)
+
 The pink component is the scintillator, and the turquoise is the light-sensitive PMT.
 
 ###[PSPhysicsList.cc](https://github.com/alicelynch/PlasticScint_Fibre/blob/master/src/PSPhysicsList.cc)
@@ -49,9 +50,4 @@ The pink component is the scintillator, and the turquoise is the light-sensitive
   - Including scintillation (G4Scintillation), optical absorption (G4OpAbsorption), scattering (G4OpRayleigh) ad boundary processes (G4OpBoundaryProcess)
 
 
-  <!---
-
-Run `python frequency.py output.txt`
-
-<img src="https://github.com/alicelynch/Twitter-Sentiment-Analysis/blob/master/freq1.png" alt="Word Frequency" width="800" height="400">
---->
+<!--- Run `python frequency.py output.txt` <img src="https://github.com/alicelynch/Twitter-Sentiment-Analysis/blob/master/freq1.png" alt="Word Frequency" width="800" height="400"> --->
